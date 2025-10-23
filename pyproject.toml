@@ -1,0 +1,14 @@
+[project]
+name = "sai-cookbook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.8"
+dependencies = [
+    "ipykernel>=7.0.1",
+    "langchain>=1.0.1",
+    "langchain-openai>=1.0.1",
+    "langgraph>=1.0.1",
+    "openai>=2.6.0",
+    "openai-agents>=0.4.0",
+]

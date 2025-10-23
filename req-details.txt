@@ -1,0 +1,70 @@
+Python
+    
+brew update && brew upgrade pyenv
+
+pyenv install 3.13.8                    Release Date: Oct. 7, 2025
+pyenv local 3.13.8
+pyenv versions   
+
+---
+
+Python UV
+
+cd SAI 
+uv python pin 3.13.8
+uv init sai-cookbook                    (Optional)
+git clone git@github.com:the-schoolofai/sai-cookbook.git
+cd sai-cookbook     
+uv venv  
+source .venv/bin/activate
+code .  
+
+---
+
+IPython Kernel for Jupyter
+
+ipykernel 7.0.1
+uv add ipykernel                        Released: Oct 14, 2025
+
+ipykernel==7.0.1
+ipython==9.6.0
+
+jupyter-client==8.6.3
+jupyter-core==5.9.1
+
+--- 
+
+Agents SDK Python
+
+openai-agents 0.4.0
+uv add openai-agents                    Released: Oct 17, 2025
+
+mcp==1.18.0
+openai==2.6.0
+openai-agents==0.4.0
+
+pydantic==2.12.3
+pydantic-core==2.41.4
+pydantic-settings==2.11.0
+
+python-dotenv==1.1.1
+
+starlette==0.48.0
+uvicorn==0.38.0
+
+---
+
+LangChain 
+
+langchain 1.0.1
+uv add langchain                        Released: Oct 20, 2025
+
+langchain==1.0.1
+langchain-core==1.0.0
+langgraph==1.0.1
+langgraph-checkpoint==3.0.0
+langgraph-prebuilt==1.0.1
+langgraph-sdk==0.2.9
+langsmith==0.4.37
+
+---
