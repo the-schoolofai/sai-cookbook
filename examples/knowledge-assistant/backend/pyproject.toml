@@ -1,0 +1,11 @@
+[project]
+name = "knowledge-assistant-backend"
+version = "0.1.0"
+description = "Knowledge Assistant API"
+readme = "README.md"
+requires-python = ">=3.13.8"
+dependencies = [
+    "fastapi[standard]>=0.121.0",
+    "openai>=2.7.1",
+    "openai-agents>=0.5.0",
+]

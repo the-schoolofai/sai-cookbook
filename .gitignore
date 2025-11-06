@@ -172,3 +172,8 @@ pyrightconfig.json
 
 # macOS system files
 .DS_Store
+
+# Examples
+# Knowledge Assistant
+examples/knowledge-assistant/backend/.venv-ka/
+examples/knowledge-assistant/backend/.env
