@@ -488,7 +488,7 @@ wheels = [
 ]
 
 [[package]]
-name = "knowledge-assistant"
+name = "knowledge-assistant-backend"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
